@@ -1,0 +1,175 @@
+body { 
+  background: url(background.jpg) no-repeat center center; 
+  background-size: cover;
+  font-weight: bolder;
+}
+
+.doughnut {
+  position: relative;
+  border: 130px solid #333232;
+  border-radius: 300px;
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*=========================
+     Message center
+=========================*/
+
+.messageCenterBack {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  z-index: -1;
+}
+.messageCenter {
+  position: absolute;
+  margin: -16px 0px 0px 20px;
+}
+.messageCenter h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+
+.messageCenterRow1 {
+  width: 204px;
+  height: 49px;
+  /*background-color: pink;*/
+}
+.centerRow1 {
+  float: left;  
+}
+#countBox {
+  width: 70px;
+  height: 47px;
+  border-radius: 10px;
+  background-color: #441515;
+}
+#startCircle {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  border: 5px solid grey;
+  background-color: red;
+  margin: 12px 0px 0px 25px;
+}
+#strictCircles {
+  margin-left: 25px;
+}
+#strictCircleSmall {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: black;
+  margin: 0px auto 2px auto;
+}
+#strictCircleBig {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  border: 5px solid black;
+  background-color: yellow;
+}
+
+.messageCenterRow2 {
+  width: 204px;
+  height: 32px;
+  padding-top: 5px;
+  /*background-color: lightblue;*/
+}
+.centerRow2 {
+  font-weight: bold;
+  float: left;
+}
+#centerRow2Count {
+  margin-left: 16px;
+}
+#centerRow2Start {
+  margin-left: 34px;
+}
+#centerRow2Strict {
+  margin-left: 28px;
+}
+
+.messageCenterRow3 {
+  font-weight: bold;
+  width: 204px;
+  height: 20px;
+  /*background-color: pink;*/
+}
+.centerRow3 {
+  float: left;
+}
+#centerRow3Off {
+  margin-left: 54px;
+}
+#centerRow3OnOffBlack {
+  width: 40px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+}
+#centerRow3OnOffBlue {
+  width: 18px;
+  height: 17px;
+  margin: 2px 1px 0px 1px;
+  background-color: blue;
+}
+/* Message center end */
+
+
+/*=========================
+     Child donuts
+=========================*/
+.doughnut1 { 
+  position: absolute;
+  border: solid #349c34;
+  border-top-left-radius: 300px;
+  border-bottom: none;
+  border-right: none;
+
+  margin: -110px;
+}
+
+.doughnut2 { 
+  position: absolute;
+  border: solid #901212;
+  border-top-right-radius: 300px;
+  border-bottom: none;
+  border-left: none;
+
+  margin: -110px 0px 0px 135px;
+}
+
+.doughnut3 { 
+  position: absolute;
+  border: solid #ccac1f;
+  border-bottom-left-radius: 300px;
+  border-top: none;
+  border-right: none;
+
+  margin: 133px 0px 0px -110px;
+}
+
+.doughnut4 { 
+  position: absolute;
+  border: solid #2d2db7;
+  border-bottom-right-radius: 300px;
+  border-top: none;
+  border-left: none;
+
+  margin: 135px 0px 0px 135px;
+}
+
+.innerDoughnuts {
+  border-width: 100px;
+  height: 125px;
+  width: 125px;
+}
+/* Child donut end */
