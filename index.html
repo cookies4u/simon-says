@@ -4,42 +4,47 @@
 	<title>Simon Says</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 <body>
 	
 	<div class="doughnut">
 		<div class="messageCenterBack">
-			<div class="messageCenter">
-				<h2>Simon</h2>
-				<div class="messageCenterRow1">
-					<div class="centerRow1" id="countBox"></div>
-					<div class="centerRow1" id="startCircle"></div>
-					<div class="centerRow1" id="strictCircles">
-						<div id="strictCircleSmall"></div>
-						<div id="strictCircleBig"></div>
-					</div>
+		</div>
+
+		<div class="messageCenter">
+			<h2>Simon</h2>
+			<div class="messageCenterRow1">
+				<div class="centerRow1" id="countBox"> <div id="countBoxText"></div> </div>
+				<div class="clickableButton centerRow1" id="startCircle" value='start'></div>
+				<div class="centerRow1" id="strictCircles">
+					<div id="strictCircleSmall"></div>
+					<div class="clickableButton" id="strictCircleBig" value='strict'></div>
 				</div>
-				<div class="messageCenterRow2">
-					<div class="centerRow2" id="centerRow2Count">Count</div>
-					<div class="centerRow2" id="centerRow2Start">Start</div>
-					<div class="centerRow2" id="centerRow2Strict">Strict</div>
+			</div>
+			<div class="messageCenterRow2">
+				<div class="centerRow2" id="centerRow2Count">Count</div>
+				<div class="centerRow2" id="centerRow2Start">Start</div>
+				<div class="centerRow2" id="centerRow2Strict">Strict</div>
+			</div>
+			<div class="messageCenterRow3">
+				<div class="centerRow3" id="centerRow3Off">Off</div>
+				<div class="centerRow3" id="centerRow3OnOffBlack">
+					<div class='clickableButton' id="centerRow3OnOffBlue" value='on'></div>
 				</div>
-				<div class="messageCenterRow3">
-					<div class="centerRow3" id="centerRow3Off">Off</div>
-					<div class="centerRow3" id="centerRow3OnOffBlack">
-						<div id="centerRow3OnOffBlue"></div>
-					</div>
-					<div class="centerRow3" id="centerRow3On">On</div>
-				</div>
+				<div class="centerRow3" id="centerRow3On">On</div>
 			</div>
 		</div>
 
-		<div class="innerDoughnuts doughnut1"></div>
-		<div class="innerDoughnuts doughnut2"></div>
-		<div class="innerDoughnuts doughnut3"></div>
-		<div class="innerDoughnuts doughnut4"></div>
+		<div class="clickableButton innerDoughnuts doughnut1" atrib='donut' value='1'></div>
+		<div class="clickableButton innerDoughnuts doughnut2" atrib='donut' value='2'></div>
+		<div class="clickableButton innerDoughnuts doughnut3" atrib='donut' value='3'></div>
+		<div class="clickableButton innerDoughnuts doughnut4" atrib='donut' value='4'></div>
 
 	</div>
 

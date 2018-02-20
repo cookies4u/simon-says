@@ -1,0 +1,39 @@
+// step 1 //
+/* 
+	on off: button clicked
+	on clicked 
+		count: - - # note two digit
+		start: clickable
+		strict: clickable
+	off clicked
+		count: blank
+		start: not clickable
+		strict: not clickable
+*/
+// step 2//
+/*
+	start button clicked
+		1. count: starts at 1
+		2. first flash existing computer input
+		3. if count = 1 or count increased 
+		 	 a. random color flashed 
+			 b. computer input appended based on step 2
+		4. after computer finishes user needs to select the colors. append empty user input array
+		5. user has 10 seconds to answer
+				if user doesn't answer on time considered wrong
+				go to step 6 wrong
+		6. compare user input to computer input
+				Correct:
+					user input array cleared
+					count increases
+					go to step 2
+				Wrong:
+					strict: note when stricked clicked small dot turns green
+						count reset to 1
+						user input array cleared
+						computer selection array cleared
+						go to step 2
+					not strict:
+						user input array cleared
+						go to step 2
+*/
